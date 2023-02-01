@@ -57,5 +57,10 @@ If you are familiar with building C++ Qt desktop applications with Qt Creator, t
 If you are new to building C++ Qt desktop applications, there is a more detailed guide [here](/doc/Building.md).
 
 
+## Star 增长图
+
+[![Stargazers over time](https://starchart.cc/dail8859/NotepadNext.svg)](https://starchart.cc/dail8859/NotepadNext)
+
+
 # License
 This code is released under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
