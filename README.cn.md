@@ -60,3 +60,5 @@ Linux 和 macOS 可以参考 win 平台配置环境。
 ```
 // SPDX-License-Identifier: GPL-3.0-or-later
 ```
+
+依赖项版权说明见：[THIRDPARTY.md](THIRDPARTY.md)
