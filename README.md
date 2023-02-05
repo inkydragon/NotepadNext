@@ -2,7 +2,7 @@
 
 [中文说明](README.cn.md) | [Gitee 国内加速下载][gitee-download] | [Gitee 镜像库][gitee-repo] | [Gitee 中文问题反馈][gitee-issue]
 
-[gitee-download]: https://github.com/dail8859/NotepadNext/releases
+[gitee-download]: https://gitee.com/woclass/NotepadNext/releases/latest
 [gitee-repo]: https://gitee.com/woclass/NotepadNext
 [gitee-issue]: https://gitee.com/woclass/NotepadNext/issues
 
