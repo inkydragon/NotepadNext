@@ -1,5 +1,11 @@
 # Notepad Next
 
+[中文说明](README.cn.md) | [Gitee 国内加速下载][gitee-download] | [Gitee 镜像库][gitee-repo] | [Gitee 中文问题反馈][gitee-issue]
+
+[gitee-download]: https://github.com/dail8859/NotepadNext/releases
+[gitee-repo]: https://gitee.com/woclass/NotepadNext
+[gitee-issue]: https://gitee.com/woclass/NotepadNext/issues
+
 ![Build Notepad Next](https://github.com/dail8859/NotepadNext/workflows/Build%20Notepad%20Next/badge.svg)
 
 A cross-platform, reimplementation of Notepad++.

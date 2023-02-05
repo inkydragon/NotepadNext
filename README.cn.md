@@ -1,5 +1,11 @@
 # Notepad Next
 
+[English Readme](README.md) | [Github Release][github-download] | [Github Repo][github-repo] | [Github issue (English only!)][github-issue]
+
+[github-download]: https://gitee.com/dail8859/NotepadNext/releases/latest
+[github-repo]: https://github.com/dail8859/NotepadNext
+[github-issue]: https://github.com/dail8859/NotepadNext/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+
 Github 构建状态：![Build Notepad Next](https://github.com/dail8859/NotepadNext/workflows/Build%20Notepad%20Next/badge.svg)
 
 **跨平台的 Notepad++ 实现**
