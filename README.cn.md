@@ -1,46 +1,62 @@
 # Notepad Next
 
-![Build Notepad Next](https://github.com/dail8859/NotepadNext/workflows/Build%20Notepad%20Next/badge.svg)
+Github 构建状态：![Build Notepad Next](https://github.com/dail8859/NotepadNext/workflows/Build%20Notepad%20Next/badge.svg)
 
-A cross-platform, reimplementation of Notepad++.
+**跨平台的 Notepad++ 实现**
 
-Though the application overall is stable and usable, it should not be considered safe for critically important work.
+开发版注意！尽管该程序总体上是稳定、可用的，但对于重要的任务来说，它不应被视为安全、可靠的。
 
-There are numerous bugs and half working implementations. Pull requests are greatly appreciated.
+目前代码中仍有许多 bug 和刚好能跑的实现。
+我们非常欢迎去 github 进行提交请求。
 
 ![screenshot](/doc/screenshot.png)
 
-# Installation
 
-Packages are available for Windows, Linux, and MacOS.
+# 安装
 
-Windows packages are available as an installer or a stand-alone zip file on the [release](https://github.com/dail8859/NotepadNext/releases) page. The installer provides additional components such as an auto-updater and Windows context menu integration. You can easily install it with Winget:
+安装包在三大平台上均可用：Windows, Linux, 和 MacOS.
 
+## Windows
+
+Windows 平台有绿色版压缩包和 exe 安装程序可用：
+- 绿色版压缩包：[`NotepadNext-v*-win64.zip`](https://gitee.com/woclass/NotepadNext/releases/latest)
+- exe 安装程序：[`NotepadNext-v*-Installer.exe`](https://gitee.com/woclass/NotepadNext/releases/latest)  
+    安装程序提供了额外的自动更新器、注册 win 右键菜单等功能。
+
+或者也可以使用 winget 安装：
 ```powershell
 winget install dail8859.NotepadNext
 ```
 
-Linux packages can be obtained by downloading the stand-alone AppImage on the [release](https://github.com/dail8859/NotepadNext/releases) page or by installing the [flatpak](https://flathub.org/apps/details/com.github.dail8859.NotepadNext) by executing:
+## Linux
+Linux 平台有 AppImage 和 flatpak 可用：
+- [`NotepadNext-x86_64.AppImage`](https://gitee.com/woclass/NotepadNext/releases/latest)
+- [flatpak @ flathub.org](https://flathub.org/apps/details/com.github.dail8859.NotepadNext)  
+    下载然后执行:
+    ```bash
+    flatpak install flathub com.github.dail8859.NotepadNext
+    ```
 
-```bash
-flatpak install flathub com.github.dail8859.NotepadNext
+## MacOS
+MacOS 平台有 dmg 可用：
+- [`NotepadNext.dmg`](https://gitee.com/woclass/NotepadNext/releases/latest)
+
+
+# 开发
+目前 Windows 上开发使用
+- Visual Studio 2022 
+- Qt v6.2+
+
+Linux 和 macOS 可以参考 win 平台配置环境。
+可能需要少量的修改。
+
+如果你很熟悉 QT 的开发，并使用 Qt Creator，那么直接打开 `src/NotepadNext.pro` 就能编译运行本项目。
+
+如果你刚接触 C++ Qt 的桌面项目，可以参考 [构建过程（英文）](/doc/Building.md)
+
+
+# 版权
+本项目使用 [GPL v3.0+](LICENSE) 协议授权.
 ```
-
-MacOS disk images can be downloaded from the [release](https://github.com/dail8859/NotepadNext/releases) page.
-
-
-# Development
-Current development is done using Visual Studio 2022 and Qt v6.2+ on Windows. This is also known to build successfully on various Linux distributions and macOS. Other platforms/compilers should be usable with minor modifications.
-
-If you are familiar with building C++ Qt desktop applications with Qt Creator, then this should be as simple as opening `src/NotepadNext.pro` and build/run the project.
-
-If you are new to building C++ Qt desktop applications, there is a more detailed guide [here](/doc/Building.md).
-
-
-## Star 增长图
-
-[![Stargazers over time](https://starchart.cc/dail8859/NotepadNext.svg)](https://starchart.cc/dail8859/NotepadNext)
-
-
-# License
-This code is released under the [GNU General Public License version 3](http://www.gnu.org/licenses/gpl-3.0.txt).
+// SPDX-License-Identifier: GPL-3.0-or-later
+```
