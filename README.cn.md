@@ -2,7 +2,7 @@
 
 [English Readme](README.md) | [Github Release][github-download] | [Github Repo][github-repo] | [Github issue (English only!)][github-issue]
 
-[github-download]: https://gitee.com/dail8859/NotepadNext/releases/latest
+[github-download]: https://github.com/dail8859/NotepadNext/releases/latest
 [github-repo]: https://github.com/dail8859/NotepadNext
 [github-issue]: https://github.com/dail8859/NotepadNext/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
 
